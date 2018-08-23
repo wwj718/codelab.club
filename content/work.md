@@ -1,4 +1,4 @@
 +++
-title = "Work"
+title = "Events"
 id = "work"
 +++

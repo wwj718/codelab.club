@@ -5,6 +5,31 @@
 *  theme: [airspace-hugo](https://themes.gohugo.io/theme/airspace-hugo/)
 
 # usage
+[Hugo中文文档](http://www.gohugo.org/)
+```
+hugo new site hugo_demo_site
+cd hugo_demo_site
+cd themes
+git clone https://github.com/themefisher/airspace-hugo
+```
+
+将themes/airspace-hugo/exampleSite的文件复制出来
+
+### 结构
+*  home
+*  blog
++ -> events（work）
++ -> service
+*  about
+*  contact
+
+### 新增内容
+events -> 火星车活动
+service -> 已有网站 / 公众号
+    OUR SERVICES
+
+# todo
+二维码
 
 ### 写博客
 hugo new blog/first.md
@@ -13,7 +38,7 @@ hugo new blog/first.md
 hugo server --theme=airspace-hugo --buildDrafts
 
 ### 发布
-git push
+make push
 
 ### 一些资源图片(CC0 License)
 *  [be-creative](https://www.pexels.com/photo/close-up-of-human-hand-256514/)
@@ -74,4 +99,6 @@ tomato
     
 七巧板
 或者某个几何集合图形
+
+如何帮助用户！
 -->
