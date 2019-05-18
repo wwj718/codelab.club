@@ -7,7 +7,7 @@ date: 2018-07-25T13:22:00+08:00
 <div class="alert alert-success">原文地址：<a href="https://blog.just4fun.site/Hardware-Programming-style.html">两种硬件编程风格的比较</a></div>
 
 
-<img class="img-responsive" src="http://oav6fgfj1.bkt.clouddn.com/message_a34afc78.png" />
+<img class="img-responsive" src="http://wwj-fig-bed.just4fun.site/message_a34afc78.png" />
 
 
 >  人的心智活动透过简单的概念而发挥它的力量，方法主要可分为三种：第一，把数个简单的概念组合成一个复合的概念，于是所有复杂的概念成焉。第二，将两个概念，不论简单或复杂，不将它们结合，而是同时并列在一起观察，如此就能得知何为相互关联。第三，把某些概念，与伴随它们其他真实存在的概念区隔出来，称为这抽象艺术化，所有一般化，概化的概念皆是由此而生  - 约翰·洛克《人类理解论》
@@ -38,7 +38,7 @@ date: 2018-07-25T13:22:00+08:00
 ##### 编程方式
 我们以[makecode microbit](https://pxt.microbit.org/)为例，来展示灌入式编程的编程方式.
 
-<img src="http://oav6fgfj1.bkt.clouddn.com/microbit_gr_de9399e6.png" width=500 />
+<img src="http://wwj-fig-bed.just4fun.site/microbit_gr_de9399e6.png" width=500 />
 
 在[makecode microbit](https://pxt.microbit.org/)中，通过拖拽积木，拼搭出我们的程序，接着将程序下载到本地（程序在线上完成编译），最后将下载的文件拖入micro:bit，即可运行。
 
@@ -55,12 +55,12 @@ date: 2018-07-25T13:22:00+08:00
 *  [scratch Picoboard](https://en.scratch-wiki.info/wiki/PicoBoard)
 *  [S4A](http://s4a.cat/)
 *  [scratch microbit extension](https://llk.github.io/scratch-gui/microbit/)
-*  [scratch3-adapter](https://blog.just4fun.site/lab/scratch3-adapter-docs/)
+*  [codelab-adapter](https://blog.just4fun.site/lab/codelab-adapter-docs/)
 
 #####  编程方式
 我们以[cozmo code lab](https://www.anki.com/en-us/cozmo/code-lab)为例，来展示`交互式`编程的编程方式.
 
-![](http://oav6fgfj1.bkt.clouddn.com/cozmof70f49bd.png)
+![](http://wwj-fig-bed.just4fun.site/cozmof70f49bd.png)
 
 在[cozmo code lab](https://www.anki.com/en-us/cozmo/code-lab)中，你同样身处积木化的编程界面里，通过拖拽积木，拼搭出所需的程序，点击运行，cozmo即可按照程序的逻辑运行。
 
@@ -117,7 +117,7 @@ date: 2018-07-25T13:22:00+08:00
 
 如果学习者愿意，他可以看看与积木等价的代码：
 
-<img src="http://oav6fgfj1.bkt.clouddn.com/codeorg_9b3de524.png" width=600 />
+<img src="http://wwj-fig-bed.just4fun.site/codeorg_9b3de524.png" width=600 />
 
 我们看到，这些代码隐藏了很多实现的细节，你也许要抱怨说code.org在欺骗学习者，这并不是真正运行的代码，`真正的代码`是由js在操控svg的元素，但你确定你要给出这个粒度的东西吗？`真正的代码`也许是一串`001101101...`. 我认为平台给出合适抽象粒度的积木在编程教育里是至关重要的
 
@@ -155,11 +155,11 @@ date: 2018-07-25T13:22:00+08:00
 
 而在创作类平台中(比如scratch)，`交互式`编程允许虚拟角色与物理硬件彼此沟通，你可以自由联通虚拟与现实世界，制作体感游戏和富有表现力的故事。这将为我们带来更高的`高天花板`和更多的趣味性，从而点燃大家的热情
 
-关于这块的有趣例子可以参考:[scratch3-adapter-docs gallery](https://scratch3-adapter-docs.just4fun.site/user_guide/gallery/)
+关于这块的有趣例子可以参考:[codelab-adapter-docs gallery](https://codelab-adapter-docs.codelab.club/user_guide/gallery/)
 
 >    强大的可扩展性
 
-`交互式`还将为我们带来强大的可扩展性，[ROS(Robot Operating System)](https://zh.wikipedia.org/zh-hans/ROS)和[scratch3_adapter](https://scratch3-adapter-docs.just4fun.site/)是很好的两个例子。因为基于消息通信，各个部分彼此解耦，这些系统本质上是分布式的，你可以接入任何东西，在[scratch3_adapter](https://scratch3-adapter-docs.just4fun.site/)中，硬件方面,我们已经接入了:
+`交互式`还将为我们带来强大的可扩展性，[ROS(Robot Operating System)](https://zh.wikipedia.org/zh-hans/ROS)和[scratch3_adapter](https://codelab-adapter-docs.codelab.club/)是很好的两个例子。因为基于消息通信，各个部分彼此解耦，这些系统本质上是分布式的，你可以接入任何东西，在[scratch3_adapter](https://codelab-adapter-docs.codelab.club/)中，硬件方面,我们已经接入了:
 
 *  [micro:bit](http://microbit.org/)
 *  [Cozmo](https://www.anki.com/en-us/cozmo)
@@ -188,16 +188,16 @@ AI方面，我们接入了:
 
 事实上，社区里的交互式项目(如S4A、snap4arduino、s4m)思路基本都是一样的
 
-我们自己动手实现了[scratch3_adapter](https://scratch3-adapter-docs.just4fun.site/)
+我们自己动手实现了[scratch3_adapter](https://codelab-adapter-docs.codelab.club/)
 
-我把写作[scratch3_adapter](https://scratch3-adapter-docs.just4fun.site/)的过程都记录在博客里，如果你有兴趣，也可以根据最初的架构，自己实现:
+我把写作[scratch3_adapter](https://codelab-adapter-docs.codelab.club/)的过程都记录在博客里，如果你有兴趣，也可以根据最初的架构，自己实现:
 
 *  [为Scratch3.0设计的插件系统(上篇)](https://blog.just4fun.site/scratch3-plugin-1.html)
 *  [为Scratch3.0设计的插件系统(下篇)](https://blog.just4fun.site/scratch3-plugin-2.html)
 *  [Scratch3 Lab: 将Scratch3接入开源硬件及AI的实验项目](https://blog.just4fun.site/Scratch3-Lab.html)
-*  [scratch3-adapter-docs](https://scratch3-adapter-docs.just4fun.site/)
+*  [codelab-adapter-docs](https://codelab-adapter-docs.codelab.club/)
 
-我私下认为[scratch3_adapter](https://scratch3-adapter-docs.just4fun.site/)基于zeromq的实现也许是目前扩展性最好的，欢迎入坑 ：）
+我私下认为[scratch3_adapter](https://codelab-adapter-docs.codelab.club/)基于zeromq的实现也许是目前扩展性最好的，欢迎入坑 ：）
 
 
 
